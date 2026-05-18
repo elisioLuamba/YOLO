@@ -70,3 +70,6 @@ Dica de Performance para a Simulação
 Como o foco é o Supervisor, você pode rodar o processamento do YOLO em um script separado e enviar apenas os alertas para o aplicativo. Isso garante que a interface do supervisor não trave enquanto a IA processa o vídeo.
 
 Nota: Se o seu computador não tiver uma placa de vídeo dedicada (GPU), certifique-se de usar sempre os modelos marcados com "n" (ex: yolov8n-pose.pt), pois são otimizados para rodar em CPUs comuns com baixa latência.
+
+
+conda remove --name vision_ergonomia --all -y
